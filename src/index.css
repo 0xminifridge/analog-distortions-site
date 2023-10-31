@@ -1,6 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GlitchGoblin";
+  src: url('./fonts/glitchgoblin-2o87v-webfont.woff2') format('woff2'),
+         url('./fonts/glitchgoblin-2o87v-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+  font-family: "AnotherDanger";
+  src: local("AnotherDanger"),
+   url("./fonts/Another\ Danger\ -\ Demo.otf") format("truetype");
+  font-weight: bold;
+ }
+
+ h1 {
+  font-family: "AnotherDanger";
+ }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "GlitchGoblin", 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
