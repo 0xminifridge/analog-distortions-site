@@ -1,5 +1,6 @@
 {
   "name": "analog-distortions-site",
+  "homepage": "https://analogdistortions.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

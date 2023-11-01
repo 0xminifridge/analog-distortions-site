@@ -17,7 +17,7 @@ export default function Footer() {
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 text-primary">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="/" class="flex items-center">
               <span class="self-center text-center text-2xl font-semibold whitespace-nowrap hover:text-white">
                 Analog <br /> Distortions
               </span>
@@ -124,6 +124,16 @@ export default function Footer() {
               Analog Distortions
             </a>
             . All Rights Reserved.
+          </span>
+          <span class="text-sm sm:text-center text-slate-700">
+            Developed with ♥ by{" "}
+            <a
+              href="https://twitter.com/0xMinifridge"
+              target="_blank"
+              class="underline"
+            >
+              minifridge
+            </a>
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <a href={RIPDAO_DISCORD} class="text-primary hover:text-white">

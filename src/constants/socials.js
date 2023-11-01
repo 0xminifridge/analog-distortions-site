@@ -4,7 +4,7 @@ export const RIPDAO_MARKETPLACE =
   "https://avax.hyperspace.xyz/collection/avax/260c3b22-1c12-4cab-9811-c78f29af58c2";
 
 export const WRATH_TWITTER = "https://twitter.com/Wrathtank_avax";
-export const MINECRAFT_LINK = "https://minecraft.analogdistortions.com";
+export const MINECRAFT_LINK = "https://medium.com/@wrathtank";
 export const DOGGERINOS_SITE = "https://doggerinos.com/";
 
 export const AD_HYPERSPACE =

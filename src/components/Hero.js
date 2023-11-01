@@ -4,6 +4,7 @@ import Journey from "./Journey";
 import Collections from "./AnalogueDistortions";
 import Footer from "./Footer";
 import RIPDAO from "./RipDAO";
+import Minecraft from "./Minecraft";
 
 export default function Hero({ title }) {
   useEffect(() => {
@@ -36,6 +37,7 @@ export default function Hero({ title }) {
       <Journey />
       <Collections />
       <RIPDAO />
+      <Minecraft />
       <Footer />
     </div>
   );
